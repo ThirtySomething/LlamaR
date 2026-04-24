@@ -24,11 +24,12 @@ As far as I know it's possible to [reverse engineer][url_wiki_reverse_engineerin
 
 ### Reverse engineering
 
-To [reverse engineer][url_wiki_reverse_engineering] the [APK file][url_wiki_apk_file] you need to run `re.bat` with admin privileges. The script will
+Just clone this repository and then run `re.bat` with admin privileges. The script will
 
-- Download the Llama apk from this repository on GitHub
 - Download latest version of JADX decompiler from GitHub
-- Decompile the Llama apk
+- Decompile the Llama apk of this repository
+
+The result is located in `LlamaR/work/LlamaR`.
 
 [file_llama_apk]: ./assets/Llama.1.2014.11.20.2330.apk
 [url_7zip]: https://www.7-zip.org
