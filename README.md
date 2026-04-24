@@ -20,8 +20,18 @@ As far as I know it's possible to [reverse engineer][url_wiki_reverse_engineerin
 ## The steps
 
 - ~~First of all download and preserve the latest official [APK file][url_wiki_apk_file] of `Llama`~~ done at 24.04.2026
+- ~~[Reverse engineer][url_wiki_reverse_engineering] the original [APK file][url_wiki_apk_file] to get the source code~~ done at 24.04.2026
+
+### Reverse engineering
+
+To [reverse engineer][url_wiki_reverse_engineering] the [APK file][url_wiki_apk_file] you need to run `re.bat` with admin privileges. The script will
+
+- Download the Llama apk from this repository on GitHub
+- Download latest version of JADX decompiler from GitHub
+- Decompile the Llama apk
 
 [file_llama_apk]: ./assets/Llama.1.2014.11.20.2330.apk
+[url_7zip]: https://www.7-zip.org
 [url_kebabapps]: https://kebabapps.blogspot.com/
 [url_wiki_ai]: https://en.wikipedia.org/wiki/Artificial_intelligence
 [url_wiki_android_sdk]: https://en.wikipedia.org/wiki/Android_SDK
